@@ -43,3 +43,4 @@ install(
   PUBLIC_HEADER DESTINATION "${INC_INSTALL_DIR}")
 
 add_definitions(-DLV_DRV_NO_CONF)
+add_definitions(-DUSE_SDL=1)
